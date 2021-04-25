@@ -1,5 +1,5 @@
 class TasksController < ApplicationController
- def destroy
+  def destroy
    @task = Task.find(params[:id])
     @task.destroy
   
